@@ -1,0 +1,27 @@
+{
+  "name": "bidlocoin",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Ne trogai moy bidlocoin code. Potomy 4to ti pizduk melkii nauchis' kodit' mraz'. Ot seb9 skajy 4to 9 ne so zla",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "server": "babel-node server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Nikita Naidenov (github.com/nikitakrixn)",
+  "license": "by krixN",
+  "devDependencies": {
+    "babel": "^5.8.38"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.5.1",
+    "express": "^4.16.2",
+    "mysql2": "^1.5.3",
+    "request": "^2.87.0",
+    "sequelize": "^4.37.8",
+    "sequelize-cli": "^4.0.0"
+  }
+}
