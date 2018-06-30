@@ -1,0 +1,33 @@
+div#bidlocoin-container {
+  width        : 60%;
+  margin-left  : 20%;
+  margin-bottom: 30px;
+  background   : white;
+  padding      : 40px;
+  border-radius: 10px;
+  box-shadow   : 2px 2px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+span.left {
+  float     : left;
+  text-align: left;
+  width     : 30%;
+  margin    :auto;
+}
+
+span.center {
+  float     : left;
+  width     : 30%;
+  text-align: center;
+  margin    :auto;
+}
+
+span.right {
+  float     : right;
+  text-align: right;
+  margin    : auto;
+}
+h2{
+  display       : inline-block;
+  letter-spacing: 4px;
+}
