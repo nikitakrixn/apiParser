@@ -1,5 +1,10 @@
 # Razrushitelniy-Krug
 
+## Информация о приложении
+> Получение актуальных цен с различных криптовалютных сайтов: <br>
+-https://exmo.me   <br>
+-https://poloniex.com   <br> 
+
 ## Установка
 
 ``` bash
@@ -57,11 +62,6 @@ npm run client
 # Сервер будет запущен на http://localhost:5000 и клиент на http://localhost:3000
 ```
 
-## Информация о приложении
-> Получение актуальных цен с различных криптовалютных сайтов: <br>
-	-https://exmo.me   <br>
-    -https://poloniex.com   <br> 
-    раз в 10 секунд....... 
 ### Автор
 
 Nikita Naidenov
